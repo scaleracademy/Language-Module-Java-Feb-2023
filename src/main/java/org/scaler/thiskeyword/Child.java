@@ -6,6 +6,5 @@ public class Child extends Parent {
     public void printValueC() {
         System.out.println("this.someField = " + this.someField);
         System.out.println("super.someField = " + super.someField);
-
     }
 }
