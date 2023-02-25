@@ -1,19 +1,19 @@
 package org.scaler.generics;
 
-public class Pair<E extends Comparable<E>> {
-    private final E first;
-    private final E second;
+public class Pair<T extends Comparable<T>> {
+    private final T first;
+    private final T second;
 
-    public Pair(E first, E second) {
+    public Pair(T first, T second) {
         this.first = first;
         this.second = second;
     }
 
-    public E getFirst() {
+    public T getFirst() {
         return first;
     }
 
-    public E getSecond() {
+    public T getSecond() {
         return second;
     }
 

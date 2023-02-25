@@ -1,7 +1,7 @@
 package org.scaler.generics;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Collections;
 
 public class Generics {
 
