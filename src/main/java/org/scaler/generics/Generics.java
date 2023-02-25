@@ -48,7 +48,6 @@ public class Generics {
         Pair<Person> pair4 = new Pair<>(p2, p3);
         System.out.println(pair4.balanced());
     }
-
     static class Person implements Comparable<Person> {
         private String name;
         private int age;
